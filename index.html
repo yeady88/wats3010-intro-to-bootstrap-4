@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <!-- TODO: Add proper viewport meta tag to make page properly display on mobile devices. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <meta name="description" content="">
   <meta name="author" content="">
@@ -19,6 +19,14 @@
   <!-- Custom styles for this template -->
   <link href="css/modern-business.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
+
+  <!--favicon -->
+  <link rel="shortcut icon" href="./images/favicon.jpeg" />
+
+  <!--Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:400i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -26,8 +34,41 @@
   <!-- (1)Navigation -->
   <!-- TODO implement responsive navigation that matches your IA design -->
   <!-- TODO put this nav on every page -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">rosebud</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="shop.html" id="navbarDropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            shop
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="cbd-oil.html">CBD Oil</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="chocolate-bar.html">Chocolate</a>
+          </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="learn.html">Learn</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="blog-home-1.html">Blog</a>
+        </li>
+          <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">contact</a>
+            </li>
+          </div>
+        </li>
+      </ul>
+    </div>
   </nav>
 
   <header>
@@ -44,24 +85,17 @@
 
       <div class="carousel-inner" role="listbox">
         <!-- Slide One - Set the background image for this slide in the line below -->
-        <div class="carousel-item active" style="background-image: url('http://placehold.it/1900x1080')">
-          <div class="carousel-caption d-none d-md-block">
-            <h3>First Slide</h3>
-            <p>This is a description for the first slide.</p>
-          </div>
+        <div class="carousel-item active" style="background-image: url('./images/slide_1.jpg')">
+          <div class="carousel-caption d-none d-md-block"></div>
         </div>
         <!-- Slide Two - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+        <div class="carousel-item" style="background-image: url('./images/slide_2.jpg')">
           <div class="carousel-caption d-none d-md-block">
-            <h3>Second Slide</h3>
-            <p>This is a description for the second slide.</p>
           </div>
         </div>
         <!-- Slide Three - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+        <div class="carousel-item" style="background-image: url('./images/slide_3.jpg')">
           <div class="carousel-caption d-none d-md-block">
-            <h3>Third Slide</h3>
-            <p>This is a description for the third slide.</p>
           </div>
         </div>
       </div>
@@ -78,200 +112,127 @@
 
   <!-- Page Content -->
   <div class="container">
-    <h1 class="my-4">Welcome to Modern Business</h1>
+    <h1 class="my-4">Pioneering quality, transparency, and authenticity in the hemp industry.</h1>
 
-    <!-- Marketing Icons Section -->
-    <div class="row">
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100">
-          <h4 class="card-header">Card Title</h4>
-          <div class="card-body">
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Learn More</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100">
-          <h4 class="card-header">Card Title</h4>
-          <div class="card-body">
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos, nam perspiciatis natus commodi
-              similique totam consectetur praesentium molestiae atque exercitationem ut consequuntur, sed eveniet, magni
-              nostrum sint fuga.</p>
-              </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Learn More</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100">
-          <h4 class="card-header">Card Title</h4>
-          <div class="card-body">
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Learn More</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- /.row -->
 
 
     <!-- Portfolio Section -->
-     <!-- (3)TODO: Add the proper "row" and "col" classes to make this display work the way it should. -->
+    <!-- (3)TODO: Add the proper "row" and "col" classes to make this display work the way it should. -->
     <!-- This section shoudld be contained in a row. -->
     <!-- This section should have columns that are 4 units wide at size "md" and above, but 6 units wide at size "sm" and below. -->
 
-    <h2>Portfolio Heading</h2>
-
     <div class="row">
-      <div class="portfolio-item">
+      <div class="col-md-4 col-sm-6">
         <div class="card h-100">
           <a href="#">
-            <img class="card-img-top" src="http://placehold.it/700x450" alt="">
+            <img class="card-img-top" src="./images/portfolio_img_1.jpg" alt="our mission">
           </a>
           <div class="card-body">
             <h4 class="card-title">
-              <a href="#">Project One</a>
+              <a href="#">Our Mission</a>
             </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt?
-              Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
+            <p class="card-text">Rosebud CBD is on a mission to set the bar in the rapidly-growing industry through a
+              direct relationship with our farmers, transparency with full control studies, third-party lab test and
+              batch reports, and high-quality ingredients without any additives, fillers, flavorings, sweeteners or
+              preservatives.</p>
           </div>
         </div>
       </div>
-      <div class="portfolio-item">
+      <div class="col-md-4 col-sm-6">
         <div class="card h-100">
           <a href="#">
-            <img class="card-img-top" src="http://placehold.it/700x450" alt="">
-          </a>
-                    <div class="card-body">
-            <h4 class="card-title">
-              <a href="#">Project Two</a>
-            </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna
-              varius vitae.</p>
-        </div>
-      </div>
-    </div>
-    <div class="portfolio-item">
-      <div class="card h-100">
-        <a href="#">
-          <img class="card-img-top" src="http://placehold.it/700x450" alt="">
-        </a>
-        <div class="card-body">       
-               <h4 class="card-title">
-          <a href="#">Project Three</a>
-        </h4>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio
-          velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
-      </div>
-        </div>
-      </div>
-      <div class="portfolio-item">
-        <div class="card h-100">
-          <a href="#">
-            <img class="card-img-top" src="http://placehold.it/700x450" alt="">
+            <img class="card-img-top" src="./images/portfolio_img_2.jpg" alt="What is CBD?">
           </a>
           <div class="card-body">
             <h4 class="card-title">
-              <a href="#">Project Four 600x400 instead of 700x400</a>
+              <a href="#">What is CBD?</a>
             </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna
-              varius vitae.</p>
+            <p class="card-text">Cannabidiol (CBD) is one of the most abundant cannabinoids found in the cannabis and
+              hemp plant. It can be extracted from the plant’s flower and leaves (aerial plant parts). Hemp-derived
+              medicine has been traditionally used across many cultures for centuries.</p>
           </div>
         </div>
       </div>
-      <div class="portfolio-item">
+      <div class="col-md-4 col-sm-6">
         <div class="card h-100">
           <a href="#">
-            <img class="card-img-top" src="http://placehold.it/700x450" alt="">
+            <img class="card-img-top" src="./images/portfolio_img_3.jpg" alt="The Benefits">
           </a>
           <div class="card-body">
             <h4 class="card-title">
-              <a href="#">Project Five</a>
+              <a href="#">The Benefits</a>
             </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna
-              varius vitae.</p>
+            <p class="card-text">CBD is advertised as providing relief for anxiety, depression and post-traumatic stress
+              disorder. It is also marketed to promote sleep. Part of CBD’s popularity is that it purports to be
+              “nonpsychoactive,” and that consumers can reap health benefits from the plant without the high (or the
+              midnight pizza munchies).</p>
           </div>
         </div>
       </div>
-      <div class="portfolio-item">
+      <div class="col-md-4 col-sm-6">
         <div class="card h-100">
           <a href="#">
-            <img class="card-img-top" src="http://placehold.it/700x450" alt="">
+            <img class="card-img-top" src="./images/portfolio_img_4.jpg" alt="Transparency">
           </a>
           <div class="card-body">
             <h4 class="card-title">
-              <a href="#">Project Six</a>
+              <a href="#">Transparency</a>
             </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum nostrum suscipit ducimus nihil provident,
-              perferendis rem illo, voluptate atque, sit eius in voluptates, nemo repellat fugiat excepturi! Nemo, esse.</p>
+            <p class="card-text">Above all, we care about what our customers are putting in their bodies. In partnership
+              with our farm, we have set a standard of rigorous third-party, randomized lab testing.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="card h-100">
+          <a href="#">
+            <img class="card-img-top" src="./images/portfolio_img_5.jpg" alt="quality">
+          </a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Quality</a>
+            </h4>
+            <p class="card-text">When it comes to CBD oil, we believe that quality matters from seed to shelf. We’ve
+              partnered with an organic U.S. farm who puts thought and mindful care into every stage of the plant.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="card h-100">
+          <a href="#">
+            <img class="card-img-top" src="./images/portfolio_img_6.jpg  " alt="">
+          </a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Authenticity</a>
+            </h4>
+            <p class="card-text">Rosebud is a real brand for real people. We are fueled by genuine connection and a
+              passion for the plant. Every product we formulate is something that we’ve personally tested and
+              wholeheartedly stand by.</p>
           </div>
         </div>
       </div>
     </div>
     <!-- /.row -->
 
-    <!-- Features Section -->
-    <div class="row">
-      <div class="col-lg-6">
-        <h2>Modern Business Features</h2>
-        <p>The Modern Business template by Start Bootstrap includes:</p>
-        <ul>
-          <li>
-            <strong>Bootstrap v4</strong>
-          </li>
-          <li>jQuery</li>
-          <li>Font Awesome</li>
-          <li>Working contact form with validation</li>
-          <li>Unstyled page elements for easy customization</li>
-        </ul>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam
-            totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.
-          </p>      
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+
+      <div class="flex-container">
+        <div>
+          <p class="m-0 text-white">Copyright &copy; 2019</p>
         </div>
-      <div class="col-lg-6">
-        <img class="img-fluid rounded" src="http://placehold.it/700x450" alt="">
+        <div>
+          <p class="m-0 text-white">Yasmine Eady</p>
+        </div>
       </div>
-    </div>
-    <!-- /.row -->
+      <!-- /.container -->
+    </footer>
 
-    <hr>
-
-    <!-- Call to Action Section -->
-    <div class="row mb-4">
-        <div class="col-md-8">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae
-              veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
-          </div>
-      <div class="col-md-4">
-        <a class="btn btn-lg btn-secondary btn-block" href="#">Call to Action</a>
-      </div>
-    </div>
-
-  </div>
-  <!-- /.container -->
-
-  <!-- Footer -->
-  <footer class="py-5 bg-dark">
-  <!-- (4)TODO User flex-box to replace the centered paragraph with copyright and date with 2 paragraphs: the first paragraph is left aligned and contains copyright and date 
-      and one that is right aligned and contains your name.
-      Put the footer on every page.
-    -->
-    <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
-      </div>
-    <!-- /.container -->
-  </footer>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

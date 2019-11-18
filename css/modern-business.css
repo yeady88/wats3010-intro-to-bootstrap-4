@@ -1,10 +1,9 @@
-/*!
- * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
- */
- body {
-  padding-top: 56px;
+body{
+}
+
+@media (min-width: 992px) {
+  body {
+  }
 }
 
 .carousel-item {
@@ -20,3 +19,93 @@
 .portfolio-item {
   margin-bottom: 30px;
 }
+.navbar{
+font-size: 13px;
+text-transform: uppercase;
+
+
+}
+.navbar-light .navbar-brand{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  
+  
+}
+
+.navbar-light .navbar-brand:hover{
+  color: palevioletred;
+}
+.navbar-light{
+  font-family: 'Montserrat', sans-serif;
+
+}
+ 
+.navbar-light .navbar-nav .nav-link:hover{
+  color: palevioletred;
+  font-family: 'Montserrat', sans-serif;
+  
+  }
+
+.navbar-light .navbar-nav .nav-link {
+  font-family: 'Montserrat', sans-serif;
+  color: black;}
+  
+  .dropdown-item{
+    font-size: 13px;
+  }
+
+.dropdown-item:hover{
+  font-family: 'Montserrat', sans-serif;
+color: palevioletred;
+
+}
+
+.mb-4, .my-4{
+  font-family: 'Montserrat', sans-serif;
+  text-transform: 
+  font-size: 30px;
+  font-weight: 800;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+}
+
+ol.breadcrumb{
+  background: transparent;
+}
+
+.breadcrumb a{
+  color:black;
+}
+.breadcrumb a: hover{
+  color:black;
+}
+
+.card-header{
+  padding: .75rem 1.25rem;
+  margin-bottom: 0;
+ background-color:transparent;
+  border-bottom: 2px solid pink;
+}
+.card-footer:last-child {
+  border-radius: 1px;
+  background-color: transparent;
+  border: none;}
+
+  .btn-primary {
+    color: white;
+    background-color:black;
+  border: none;}
+    
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color:palevioletred;
+    
+}
+    
+
