@@ -1,73 +1,64 @@
 /* Site Styles Go Here */
 
-footer
-{
+footer {
     width: 100%;
 
 }
-.flex-container
-{
+
+.flex-container {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: stretch;
-    
+
 }
 
-.flex-container div
-{
+.flex-container div {
     padding: 1rem;
     flex: 0 1 auto;
 }
 
-.customer
-{
-    transform: initial;  
+.customer {
+    transform: initial;
     transition: transform 2s ease;
 }
 
-.customer:hover
-{
+.customer:hover {
     transform: rotate(30deg);
 }
 
-.about_card
-{
+.about_card {
     transform: scale(1.0);
     transition: transform 1.0s ease;
 }
 
 
-.about_card:hover
-{
+.about_card:hover {
     transform: scale(1.1);
 }
 
-.card-text:last-child{
-    font-family: 'Montserrat', sans-serif; 
+.card-text:last-child {
+    font-family: 'Montserrat', sans-serif;
     font-size: 15px;
-    
+
 }
 
-a img
-{
+a img {
     transform: scale(1.0);
     transition: transform 1s ease;
 
 
 }
-a img:hover
-{
+
+a img:hover {
     transform: scale(1.08);
 }
+
 a {
     color: black;
-        text-decoration: none;
+    text-decoration: none;
     background-color: transparent;
     font-family: 'Montserrat', sans-serif;
-  font-weight: 800;
-  text-transform: uppercase;
-  }
-  
-
-  
+    font-weight: 800;
+    text-transform: uppercase;
+}
